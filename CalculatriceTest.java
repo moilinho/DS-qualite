@@ -1,9 +1,7 @@
 package com.example.demo.data;
 
+import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.util.*;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CalculatriceTest {

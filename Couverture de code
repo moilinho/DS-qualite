@@ -1,0 +1,15 @@
+Couverture de code
+
+Interprétation des résultats de couverture :
+
+    Chaque méthode de Calculatrice est bien appelée : add, mult, div.
+
+    Cependant, une des branches conditionnelles (celle de div avec le cas denominateur == 0) n’était pas testée dans certains cas.
+
+    Cela explique un score de couverture incomplet même si on a l'impression que toutes les méthodes ont été testées.
+
+Pour améliorer le résultat, on peut:
+
+    Ajouter un test qui vérifie le cas où denominateur == 0, ce qui est fait ici avec testDivByZero().
+
+    Vérifier que tous les chemins logiques sont testés (ex. tous les if, else, exceptions levées).
